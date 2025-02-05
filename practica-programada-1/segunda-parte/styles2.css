@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #000000;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+    padding: 15px;
+}
+.barra a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.barra a:hover {
+    background-color: #0312e2;
+    border-radius: 5px;
+}
+.cuadro {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.perfilDoctor {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.nombreDoctor {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5cfa01;
+}
+
+.botonAgendar {
+    background-color: #0387df;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonAgendar:hover {
+    background-color: #0d4985;
+}
+
+.comentarios {
+    margin-top: 30px;
+}
+.cuadrosComentarios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.comentario {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
