@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular salario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cuadro">
+        <h2>Calcular salario</h2>
+        <label for="salario">Salario Bruto:</label>
+        <input type="number" id="salario" placeholder="Ingrese el salario bruto">
+        <button onclick="calcularDeducciones()">Calcular salario</button>
+        <h3>Resultados</h3>
+        <p>Cargas Sociales: <span id="cargas">0</span></p>
+        <p>Impuesto sobre la Renta: <span id="renta">0</span></p>
+        <p><strong>Salario Neto: <span id="neto">0</span></strong></p>
+    </div>
+
+    <script src="CargasSociales.js"></script>
+
+</body>
+</html>

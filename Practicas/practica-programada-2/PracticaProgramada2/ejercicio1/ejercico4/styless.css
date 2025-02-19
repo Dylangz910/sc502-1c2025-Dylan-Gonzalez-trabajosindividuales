@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+input, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: #f0ecec;
+    background: rgb(52, 42, 80);
+}
+p {
+    font-size: 20px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 70px;
+    color: #000000;
+}
+
+#cuadro {
+    background: rgb(161, 159, 159);
+    padding: 30px;
+    border-radius: 100px;
+}
